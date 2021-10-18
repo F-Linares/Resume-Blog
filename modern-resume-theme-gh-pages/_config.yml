@@ -1,0 +1,127 @@
+# Site
+repository: F-Linares/Resume-Blog
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Fernando Linares
+title: Full Stack Web Developer
+email: fernando.linares1991@gmail.com
+website: www.github.com/F-Linares
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+twitter_username: The Nandolorian
+github_username:  F-Linares
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: the_nandolorian
+linkedin_username: fernando-antonio-linares
+# xing_username: jekyll
+# pinterest_username: jekyll
+youtube_username: Fernando Linares
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+##additional_links:
+- ##title: itsgoingto.be
+  ##icon: fas fa-globe
+  ##url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's Fernando Linares and I'm a recent Full Stack Web Developer graduate from Coding Dojo. I have experience making web apps and will continue to expand my knowledge by creating everything I possibly can create with multiple programming languages. I will forever be a student of web development but at some point I will call myself an expert. Stay tuned.
+
+  I am most skilled in: <mark>Python/Django</mark> and <mark>Eating Pizza</mark>
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: My work thus far
+        link: github.com/F-Linares
+        # link_text: Project Website
+        ##additional_links:
+          ##- title:  sproogen/modern-resume-theme
+           ## icon: fab fa-github
+            ##url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        ##quote: >
+          ##This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        ##description: | # this will include new lines to allow paragraphs
+          ##I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Amazon
+        link: Amazon.com
+        # link_text: boringcompany.com
+        sub_title: Transportation Associate
+        caption: August 2019 - Present
+        quote: >
+          Just driving around in my hostler, parking trailers at dock doors and whatnot
+        description: | # this will include new lines to allow paragraphs
+            Every Amazon facility requires a TOM team to check in/out and park all tractors and trailers. Without this team, there would essentially be no Amazon. How else would the products even reach the building, let alone the customers?
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: University of Hartford
+        caption: 2014-2017
+        sub_title: BS of Health Science
+        ##quote: >
+          ##Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          During my time at Hartford, I learnt most of my key skills that I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+
+          I spent a lot of my free time keeping myself busy with school work, actual work and the gym. A body in motion stays in motion, right? However, I always made time for my family, who've been nothing but supportive in all my endeavors both educational and personal.
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      - Working out
+      - Gaming
+      - Motorcycles
+      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+      Look at this cool image  
+      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
